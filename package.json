@@ -1,9 +1,9 @@
 {
   "name": "picpress",
-  "module": "index.ts",
+  "module": "src/index.tsx",
   "type": "module",
   "scripts": {
-    "start": "bun run index.ts",
+    "start": "bun dev",
     "build": "bun build",
     "lint": "bun biome check",
     "format": "bun biome format",
