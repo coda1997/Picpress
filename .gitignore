@@ -23,7 +23,6 @@ yarn-error.log*
 .env.production.local
 
 # IDE directories and files
-.vscode/
 .idea/
 *.suo
 *.ntvs*

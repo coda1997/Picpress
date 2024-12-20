@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "preLaunchTask": "bun run start"
+    },
+    {
+      "name": "Run Build",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/bun/bin/bun.js",
+      "args": ["build"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Lint",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/bun/bin/bun.js",
+      "args": ["biome", "check"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Tests",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/bun/bin/bun.js",
+      "args": ["test"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
