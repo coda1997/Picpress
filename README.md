@@ -1,4 +1,4 @@
-# Picpress: Batch Image Compression
+# Picpress: Batch Image Compression [![Deploy Next.js site to Pages](https://github.com/coda1997/Picpress/actions/workflows/nextjs.yml/badge.svg)](https://github.com/coda1997/Picpress/actions/workflows/nextjs.yml)
 
 A Next.js web application that compresses multiple images at once using [image-js](https://github.com/image-js/image-js). Users can select images, compress them, then download their compressed versions.
 
