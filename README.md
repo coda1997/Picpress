@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Picpress: Batch Image Compression
 
-## Getting Started
+A Next.js web application that compresses multiple images at once using [image-js](https://github.com/image-js/image-js). Users can select images, compress them, then download their compressed versions.
 
-First, run the development server:
+## Features
+- Select multiple images for batch compression.  
+- Resize and compress images.  
+- Download compressed images in one click.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How It Works
+1. Users choose images using a file input.  
+2. Selected images are passed to `image-js` for resizing and compression.  
+3. Compressed images become available for download in the browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
+- [Next.js](https://nextjs.org/)  
+- [React](https://reactjs.org/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [image-js](https://github.com/image-js/image-js)  
+- [Bun](https://bun.sh/) for local development (optional).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Setup & Usage
+1. Clone or download this repo.  
+2. Install dependencies:  
+   ```bash
+   bun install
+3. Run disabled
+    ```bash
+    bun run dev
+4. Open your browser and navigate to `http://localhost:3000`.
